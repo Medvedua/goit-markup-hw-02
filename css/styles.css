@@ -1,37 +1,75 @@
+/* Common styles */
+.body{
+    background-color: #FFFFFF;
+   }
+
+.list{
+    list-style: none;
+    }
+
 /* header styles */
 
 .header {}
 
 .header-nav {
     background-color: #FFFFFF;
-}
-
+    }
+ 
 .header-logo-raleway{
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        color: #4D5AE5;
+        color: #2E2F42;
+    }
+
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #4D5AE5;
+    text-decoration: none;
 }
 
-.header-logo {}
-
 .header-list {}
+
+.header-link{
+    text-decoration: none;
+    color: currentColor;
+}
 
 .header-item {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
+        line-height: 1.5;
         color: #2E2F42;
+        }
+
+.header-item :hover,
+.header-item :focus{
+    color: #404BBF;
 }
 
 .header-address {}
 
-.header-address-list {}
+.header-address-list {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5x;
+        color: #434455;
+}
+
+header-address-list :hover,
+header-address-list :focus{
+    color: #404BBF;
+}
 
 .header-address-item {}
 
@@ -43,10 +81,31 @@
 }
 
 .hero-title {
-    color: #FFFFFF;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
 }
 
-.hero-btn {}
+.hero-btn {
+    background: #4D5AE5;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+      
+}
+
+.hero-btn:hover,
+.hero-btn :focus{
+    color: #404BBF;
+}
 
 /* features styles */
 
@@ -55,9 +114,25 @@
 
 .features-list {}
 
-.features-iten {}
+.features-iten {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+               letter-spacing: 0.02em;
+                      color: #434455;
+}
 
-.features-title {}
+.features-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 
 .features-paragraph {}
 
@@ -66,7 +141,15 @@
 
 .made {}
 
-.made-title {}
+.made-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 
 .made-list {}
 
@@ -79,10 +162,16 @@
 
 
 .team {
-   
+    background-color: #F4F4FD;;
 }
 
-.team-title {}
+.team-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
 
 .team-list {}
 
@@ -90,12 +179,59 @@
 
 .team-img {}
 
-.team-title-name {}
+.team-title-name {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-paragraph{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
 /* footer styles */
 
-.footer {}
+.footer {
+    background-color: #2E2F42;;
+}
 
-.footer-link {}
+.footer-link {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #4D5AE5;
+        text-decoration: none;
+}
 
-.foter-paragraph {}
+.foter-paragraph {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+
+.footer-logo-raleway{
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
+}
