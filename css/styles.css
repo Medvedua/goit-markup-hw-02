@@ -189,6 +189,8 @@ header-address-list: focus{
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
         color: #2E2F42;
 }
 
