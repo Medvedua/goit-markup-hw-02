@@ -1,7 +1,8 @@
 /* Common styles */
 .body{
     background-color: #FFFFFF;
-    
+    font-family: 'Roboto',sans-serif;
+    color: #434455;
    }
 
 .list{
@@ -17,11 +18,12 @@
     }
  
 .header-logo-raleway{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
+        letter-spacing: 0.03em;
         color: #2E2F42;
     }
 
