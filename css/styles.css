@@ -1,6 +1,7 @@
 /* Common styles */
 .body{
     background-color: #FFFFFF;
+    
    }
 
 .list{
@@ -66,8 +67,8 @@
         color: #434455;
 }
 
-header-address-list :hover,
-header-address-list :focus{
+header-address-list: hover,
+header-address-list: focus{
     color: #404BBF;
 }
 
@@ -91,7 +92,7 @@ header-address-list :focus{
 }
 
 .hero-btn {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
         font-family: 'Roboto';
             font-style: normal;
             font-weight: 500;
@@ -102,7 +103,7 @@ header-address-list :focus{
       
 }
 
-.hero-btn:hover,
+.hero-btn: hover,
 .hero-btn :focus{
     color: #404BBF;
 }
@@ -120,8 +121,8 @@ header-address-list :focus{
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-               letter-spacing: 0.02em;
-                      color: #434455;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
 
 .features-title {
@@ -235,3 +236,89 @@ font-family: 'Raleway';
     letter-spacing: 0.03em;
     color: #F4F4FD;
 }
+
+/* CSS Page 2 */
+
+.filters{}
+
+.filters-btn{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background-color: #F4F4FD;
+            }
+
+.filters-btn: hover,
+.filters-btn: focus {
+    color: #404BBF;}
+
+    /* app styles */
+            
+.app-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+    
+.app-paragraph {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+        /* servis styles */
+                      
+.servis-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+        
+.servis-paragraph {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+
+        /* web styles */
+                
+        
+.web-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;       
+    color: #2E2F42;}
+        
+.web-paragraph {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+
+
+
+
+    
+
+
+    
