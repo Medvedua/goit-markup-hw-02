@@ -1,9 +1,30 @@
 /* Common styles */
-.body{
-    background-color: #FFFFFF;
-    font-family: 'Roboto',sans-serif;
+:root {
+    --primari-text-color: 
+    --secondary-text-color: 
+    --primari-white-color: 
+}
+
+body {
+     background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: #434455;
    }
+
+   ul, ol {
+list-style-type: none;
+   }
+
+   
+
+
+
+
+
+
+   
 
 .list{
     list-style: none;
@@ -11,33 +32,24 @@
 
 /* header styles */
 
-.header {}
-
 .header-nav {
     background-color: #FFFFFF;
     }
  
-.header-logo-raleway{
-    font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: #2E2F42;
-    }
+.logo {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            color: #4D5AE5;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
 
 .header-logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    color: #4D5AE5;
-    text-decoration: none;
-}
-
-.header-list {}
+            color: #2E2F42;
+    }
 
 .header-link{
     text-decoration: none;
@@ -54,11 +66,11 @@
         }
 
 .header-item :hover,
-.header-item :focus{
+.header-item :focus
+{
     color: #404BBF;
 }
 
-.header-address {}
 
 .header-address-list {
     font-family: 'Roboto';
@@ -70,11 +82,11 @@
 }
 
 header-address-list: hover,
-header-address-list: focus{
+header-address-list: focus
+{
     color: #404BBF;
 }
 
-.header-address-item {}
 
 /* hero styles */
 
@@ -115,7 +127,7 @@ header-address-list: focus{
 
 .features {}
 
-.features-list {}
+
 
 .features-iten {
     font-family: 'Roboto';
@@ -137,7 +149,6 @@ header-address-list: focus{
         color: #2E2F42;
 }
 
-.features-paragraph {}
 
 /* made styles */
 
