@@ -123,9 +123,11 @@ font-style: normal;
 
 .menu {
   background-color: #FFFFFF;
+ } 
+
+.team-img {
+  background-color: #FFFFFF;
 }
-
-
 
 .team-title {
   color: var(--primari-text-color);
@@ -136,9 +138,7 @@ font-style: normal;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  .team-img {
-    background-color: #FFFFFF;
-  }
+  
     
 }
 .team-title-name {
