@@ -58,10 +58,13 @@ body {
   color: #404bbf;
 }
 
+.page-address {
+font-style: normal;
+}
+
 .menu-address-link {
   color: #434455;
-  font-style: normal;
-}
+  }
 
 .menu-address-link:hover,
 .menu-address-link:focus {
@@ -119,7 +122,7 @@ body {
 }
 
 .menu {
-  /* background-color: #FFFFFF; */
+  background-color: #FFFFFF;
 }
 
 
@@ -141,13 +144,13 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #FFFFFF;
+  
 }
 .team-paragraph {
   color: var(--secondary-text-color);
   text-align: center;
   letter-spacing: 0.02em;
-  background-color: #FFFFFF;
+ 
 }
 /*  ===== /TEAM STYLES ===== */
 
@@ -185,7 +188,7 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
