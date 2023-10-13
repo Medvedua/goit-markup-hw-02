@@ -121,11 +121,8 @@ font-style: normal;
   background-color: #f4f4fd;
 }
 
-.menu {
-  background-color: #FFFFFF;
- } 
 
-.team-img {
+.team-item {
   background-color: #FFFFFF;
 }
 
@@ -139,7 +136,6 @@ font-style: normal;
   text-transform: capitalize;
 
   
-    
 }
 .team-title-name {
   color: var(--primari-text-color);
