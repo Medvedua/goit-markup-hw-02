@@ -22,27 +22,28 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primari-text-color);
+  color: var(--secondary-text-color);
+  background-color: #FFFFFF;
 }
 /*  ===== /COMMON STYLES ===== */
 
 /*  ===== HEADER ===== */
 .page-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .span-logo {
   color: var(--primari-text-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -59,6 +60,7 @@ body {
 
 .menu-address-link {
   color: #434455;
+  font-style: normal;
 }
 
 .menu-address-link:hover,
@@ -85,13 +87,14 @@ body {
 .hero-btn {
   color: #ffffff;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background: #4d5ae5;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #404bbf;
+  background-color: #404BBF;
 }
 /*  ===== /HERO STYLES ===== */
 
@@ -114,6 +117,13 @@ body {
 .section-team {
   background-color: #f4f4fd;
 }
+
+.menu {
+  /* background-color: #FFFFFF; */
+}
+
+
+
 .team-title {
   color: var(--primari-text-color);
   text-align: center;
@@ -122,6 +132,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+    
 }
 .team-title-name {
   color: var(--primari-text-color);
@@ -130,11 +141,13 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  background-color: #FFFFFF;
 }
 .team-paragraph {
   color: var(--secondary-text-color);
   text-align: center;
   letter-spacing: 0.02em;
+  background-color: #FFFFFF;
 }
 /*  ===== /TEAM STYLES ===== */
 
@@ -169,7 +182,7 @@ body {
 
 .footer-link {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
@@ -182,7 +195,7 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
